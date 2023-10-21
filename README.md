@@ -11,9 +11,9 @@ This project implements the Kruskal algorithm for finding the minimum spanning t
 
 # Example of defining edges and running the algorithm
 
-edges = [(1, 2, 13), (1, 8, 5), ...] # List of edges, where the first two numbers are the numbers of vertices, and the third number is the weight of the edge between them.
-n = 14 # Number of vertices
-min_tree = kruskal_algorithm(edges, n) # Running the algorithm
+edges = [(1, 2, 13), (1, 8, 5), ...] # List of edges, where the first two numbers are the numbers of vertices, and the third number is the weight of the edge between them./n
+n = 14 # Number of vertices /n
+min_tree = kruskal_algorithm(edges, n) # Running the algorithm 
 
 # Dependencies
 
