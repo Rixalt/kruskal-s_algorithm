@@ -1,6 +1,3 @@
-# kruskal-s_algorithm
-The code implements the Kruskal algorithm for finding the minimum spanning tree in a weighted graph and displays it on the graph.
-
 # Minimum spanning tree (Kruskal algorithm)
 
 This project implements the Kruskal algorithm for finding the minimum spanning tree in a weighted graph and displays the results on a graph using the `matplotlib` and `networkx` libraries.
@@ -20,5 +17,9 @@ min_tree = kruskal_algorithm(edges, n) # Running the algorithm
 
 # Dependencies
 
-matplotlib - https://matplotlib.org/
-networkx - https://networkx.org/
+1. matplotlib - https://matplotlib.org/
+2. networkx - https://networkx.org/
+
+install:
+pip install matplotlib
+pip install networkx
