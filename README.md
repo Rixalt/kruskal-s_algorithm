@@ -17,9 +17,6 @@ min_tree = kruskal_algorithm(edges, n) # Running the algorithm
 
 # Dependencies
 
-1. matplotlib - https://matplotlib.org/
-2. networkx - https://networkx.org/
+1. matplotlib - https://matplotlib.org/    (pip install matplotlib)
+2. networkx - https://networkx.org/    (pip install networkx)
 
-install:
-pip install matplotlib
-pip install networkx
