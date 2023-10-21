@@ -1,24 +1,24 @@
 # kruskal-s_algorithm
 The code implements the Kruskal algorithm for finding the minimum spanning tree in a weighted graph and displays it on the graph.
 
-# Мінімальне остовне дерево (Алгоритм Крускала)
+# Minimum spanning tree (Kruskal algorithm)
 
-Цей проект реалізує алгоритм Крускала для знаходження мінімального остовного дерева в зваженому графі і надає можливість візуалізувати результати на графіці за допомогою бібліотек `matplotlib` та `networkx`.
+This project implements the Kruskal algorithm for finding the minimum spanning tree in a weighted graph and displays the results on a graph using the `matplotlib` and `networkx` libraries.
 
-## Використання
+## Usage.
 
-1. Виберіть граф, для якого ви бажаєте знайти мінімальне остовне дерево.
-2. Визначте ребра графу та їхні ваги у вигляді списку `edges`.
-3. Встановіть кількість вершин графу у змінній `n`.
-4. Запустіть код, і він знайде мінімальне остовне дерево та відобразить його на графі.
+1. Select the graph for which you want to find the minimum spanning tree.
+2. Define the edges of the graph and their weights in the form of a list of `edges`.
+3. Set the number of graph vertices in the variable `n`.
+4. Run the code and it will find the minimum spanning tree and display it on the graph.
 
-# Приклад визначення ребер та запуску алгоритму
+# Example of defining edges and running the algorithm
 
-edges = [(1, 2, 13), (1, 8, 5), ...]  # Список ребер, де перші два числа це номера вершин, а третє число - вага ребра між ними.
-n = 14  # Кількість вершин
-min_tree = kruskal_algorithm(edges, n)  # Запуск алгоритму
+edges = [(1, 2, 13), (1, 8, 5), ...] # List of edges, where the first two numbers are the numbers of vertices, and the third number is the weight of the edge between them.
+n = 14 # Number of vertices
+min_tree = kruskal_algorithm(edges, n) # Running the algorithm
 
-# Залежності
+# Dependencies
 
 matplotlib - https://matplotlib.org/
 networkx - https://networkx.org/
